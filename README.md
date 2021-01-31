@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c0b7866-f367-48a1-a267-5663a6f4254f/deploy-status)](https://app.netlify.com/sites/cranky-spence-25aad4/deploys)
+
 # Think as ReactJS do it!
 ![Pseudo Components](./doc/ThinkReact.png)
 

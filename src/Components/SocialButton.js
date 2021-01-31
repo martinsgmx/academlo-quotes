@@ -17,8 +17,11 @@ const SocialButton = ( { color, type, text='None', aux } ) => {
 			URL = `https://twitter.com/intent/tweet?text=${ quote }%20-${ author }&via=AcademloHQ`;
 			break;
 		case 'wikipedia':
-			author = author.replace(/ /g, '_');
+			author = author.replace(/ /g, '%20');
 			logo = 'fab fa-wikipedia-w';
+			URL = `https://en.wikipedia.org/wiki/${ author }`;
+			break;
+		default:
 			URL = `https://en.wikipedia.org/wiki/${ author }`;
 			break;
 	}
